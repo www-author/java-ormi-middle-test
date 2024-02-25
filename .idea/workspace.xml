@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e61f96-5402-4a49-82d8-7dd0a96f4feb" name="변경" comment="" />
+    <list default="true" id="97e61f96-5402-4a49-82d8-7dd0a96f4feb" name="변경" comment=":sparkles: feat : 각 도형 별 면적 계산">
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/exchange/CurrencyExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/exchange/CurrencyExchangeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/primenumber/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/primenumber/PrimeNumberDiscriminationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/shape/ShapeAreaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/word/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/middle/test/domain/word/WordInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2cqzd7oKxSkK4FfMvSsB71jBsp7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,13 +48,99 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Applications/home/Repository/Intelij/java-ormi-middle-test/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Application.executor": "Run",
+    "애플리케이션.CurrencyExchangeApplication.executor": "Run",
+    "애플리케이션.PrimeNumberDiscriminationApplication.executor": "Debug",
+    "애플리케이션.WordCounter.executor": "Run",
+    "애플리케이션.com.primenumber.Application.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.primenumber.constants" />
+      <recent name="com.primenumber.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.WordCounter">
+    <configuration name="CurrencyExchangeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.middle.test.domain.exchange.CurrencyExchangeApplication" />
+      <module name="java-ormi-middle-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.middle.test.domain.exchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumberDiscriminationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.middle.test.domain.primenumber.PrimeNumberDiscriminationApplication" />
+      <module name="java-ormi-middle-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.middle.test.domain.primenumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeAreaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.middle.test.domain.shape.ShapeAreaApplication" />
+      <module name="java-ormi-middle-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.middle.test.domain.shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.middle.test.domain.word.WordCounter" />
+      <module name="java-ormi-middle-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.middle.test.domain.word.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.WordCounter" />
+        <item itemvalue="애플리케이션.PrimeNumberDiscriminationApplication" />
+        <item itemvalue="애플리케이션.CurrencyExchangeApplication" />
+        <item itemvalue="애플리케이션.ShapeAreaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24582b8d" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -38,22 +149,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708853980421</updated>
-      <workItem from="1708853981863" duration="1000" />
+      <workItem from="1708853981863" duration="36141000" />
     </task>
+    <task id="LOCAL-00001" summary=":sparkles: feat : 예외 메시지 상수 클래스 추가">
+      <option name="closed" value="true" />
+      <created>1708890001051</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708890001051</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":sparkles: feat : 숫자 형식 유효성 검사 기능 추가">
+      <option name="closed" value="true" />
+      <created>1708890069458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708890069458</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":sparkles: feat : 각 도형 별 면적 계산">
+      <option name="closed" value="true" />
+      <created>1708890330213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708890330213</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":sparkles: feat : 예외 메시지 상수 클래스 추가" />
+    <MESSAGE value=":sparkles: feat : 숫자 형식 유효성 검사 기능 추가" />
+    <MESSAGE value=":sparkles: feat : 각 도형 별 면적 계산" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: feat : 각 도형 별 면적 계산" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/com/middle/test/domain/primenumber/Number.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.stream.SliceOps$1" memberName="limit" />
+        <PinnedItemInfo parentTag="java.util.stream.SliceOps$1" memberName="normalizedLimit" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
