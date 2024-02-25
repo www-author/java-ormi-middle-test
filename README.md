@@ -20,8 +20,7 @@
 각 도형 클래스에서는 getArea() 메소드를 오버라이딩하여 해당 도형의 넓이를 계산합니다.
 테스트 데이터를 다양하게 넣고 검증해주세요.
 
-... 이미지 추가 예정
-
+<img alt="클래스다이어그램.png" src="https://github.com/www-author/java-ormi-middle-test/assets/148677085/4307cc4b-3106-46bf-b175-b201813a6af1" width="500"><br>
 
 - Shape 인터페이스 : getArea() 메서드를 선언합니다.
 - Circle 클래스 : Shape 인터페이스를 구현합니다. 반지름을 멤버 변수로 가집니다.
@@ -32,8 +31,8 @@
 
 ### 사용자로부터 숫자를 입력 받고, 해당 숫자가 소수인지 아닌지 판별하는 프로그램을 작성해주세요.
 
-... 이미지 추가 예정 
-
+<img alt="소수정의.png" src="https://github.com/www-author/java-ormi-middle-test/assets/148677085/0765ed32-b183-4d8a-b3dc-50c2b389befc" width="700"><br>
+[_소수란?-출처:chatGPT_]
 
 ```java
 <제한사항>
