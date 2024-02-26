@@ -86,3 +86,44 @@ System.out.println(decimalFormat.format(num));
 - 샘플 코드(`WordCounter`, `WordInfo` 클래스)를 참고하여 기능을 구현해주세요.
 - 객체지향에 맞는 코드로 자유롭게 작성해주세요.
 - 정렬 로직을 직접 구현한다면 가산점
+
+```java
+public class WordInfo {
+    private String longestWord;
+    private Map<String, Integer> frequency;
+		...
+
+		...
+}
+```
+
+````java
+import java.util.Arrays;
+import java.util.List;
+
+public class WordCounter {
+    public static void main(String[] args) {
+        WordInfo info = check("""
+								위에서 주어진 문장
+                """);
+    }
+
+    public static WordInfo check(String str) {
+        WordInfo info = new WordInfo();
+
+				// 문자열 Split 로직 샘플
+        List<String> list = Arrays.stream(str.split(" ")).toList();
+        for (String word : list) {
+            System.out.println(word);
+        }
+        
+				//TODO 1. 문자열 에서 가장 긴 단어 찾기
+        //info.findLongestWord();
+
+        //TODO 2. 문자열 에서 가장 많이 나온 단어 top 3 (key : 단어, value : 횟수)
+        //info.getFrequency();
+
+        return info;
+    }
+}
+````
