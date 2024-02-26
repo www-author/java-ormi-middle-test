@@ -1,8 +1,7 @@
 package com.middle.test.domain.word;
 
 import java.util.Arrays;
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.List;
 
 public class WordCounter {
     public static void main(String[] args) {
@@ -35,13 +34,12 @@ public class WordCounter {
     public static WordInfo check(String str) {
         WordInfo info = new WordInfo();
 
-        Set<String> words = Arrays.stream(str.split("\\s+"))
-                .collect(Collectors.toSet());
+        List<String> words = Arrays.stream(str.split("\\s+")).toList();
         // 1. 문자열 에서 가장 긴 단어 찾기
         info.findLongestWords(words);
 
         // 2. 문자열 에서 가장 많이 나온 단어 top 3 (key : 단어, value : 횟수)
-        //info.getFrequency(words, 3);
+        info.getFrequency(words, 3);
 
         return info;
     }

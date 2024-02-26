@@ -20,7 +20,7 @@ public class WordInfo {
                 ));
     }
 
-    public void findLongestWords(Set<String> words) {
+    public void findLongestWords(List<String> words) {
         int maxLength = 0;
         for(String word : words) {
             if(maxLength > word.length()) {
