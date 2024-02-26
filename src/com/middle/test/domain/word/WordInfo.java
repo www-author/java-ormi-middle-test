@@ -2,14 +2,13 @@ package com.middle.test.domain.word;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class WordInfo {
-    private List<String> longestWords;
+    private Set<String> longestWords;
     private Map<String, Integer> frequency;
 
     public WordInfo() {
-        longestWords = new ArrayList<>();
+        longestWords = new TreeSet<>();
         frequency = new HashMap<>();
     }
 
@@ -21,7 +20,7 @@ public class WordInfo {
                 ));
     }
 
-    public void findLongestWords(List<String> words) {
+    public void findLongestWords(Set<String> words) {
         int maxLength = 0;
         for(String word : words) {
             if(maxLength > word.length()) {
@@ -44,6 +43,11 @@ public class WordInfo {
         setFrequency(words);
         System.out.println("2. 문자열에서 가장 많이 나온 단어 Top 3 :");
         sortedDescending(topN);
+        //descendingMergeSort(topN);
+    }
+
+    public void descendingMergeSort(int topN) {
+        //words
     }
 
     public void sortedDescending(int topN) {
