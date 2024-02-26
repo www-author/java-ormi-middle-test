@@ -43,11 +43,6 @@ public class WordInfo {
         setFrequency(words);
         System.out.println("2. 문자열에서 가장 많이 나온 단어 Top 3 :");
         sortedDescending(topN);
-        //descendingMergeSort(topN);
-    }
-
-    public void descendingMergeSort(int topN) {
-        //words
     }
 
     public void sortedDescending(int topN) {
