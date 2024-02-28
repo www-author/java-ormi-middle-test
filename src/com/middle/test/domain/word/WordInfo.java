@@ -42,6 +42,7 @@ public class WordInfo {
     public void getFrequency(List<String> words, int topN) {
         setFrequency(words);
         System.out.println("2. 문자열에서 가장 많이 나온 단어 Top 3 :");
+        //TODO (refactor) : 직접 내림 차순 정렬 구현
         sortedDescending(topN);
     }
 
